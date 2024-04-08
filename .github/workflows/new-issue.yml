@@ -10,7 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Issue comment
-        uses: jd-solanki/gh-action-comment-on-new-issue@v2.0.3
+        uses: KeisukeYamashita/create-comment@v1
         with:
-          message: 'Welcome to the repo :)'
+          number: 1
+          comment: Comment for Issue or GitHub Pull Request
       
