@@ -14,6 +14,6 @@ jobs:
         uses: KeisukeYamashita/create-comment@v1
         with:
           number: 1
-          comment: Comment for Issue or GitHub Pull Request
+          comment: "This is an automated repsonse. Thanks for your issue"
           token: ${{ secrets.GITHUB_TOKEN }}
       
