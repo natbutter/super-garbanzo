@@ -1,0 +1,16 @@
+name: New Issue
+
+on: 
+  issues:
+    types:
+      - opened
+
+jobs: 
+  comment-on-issue: 
+    runs-on: ubuntu-latest
+    steps:
+      - name: Issue comment
+        uses: jd-solanki/gh-action-comment-on-new-issue@v2.0.3
+        with:
+          message: 'Welcome to the repo :)'
+      
