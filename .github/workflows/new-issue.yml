@@ -14,4 +14,5 @@ jobs:
         with:
           number: 1
           comment: Comment for Issue or GitHub Pull Request
+          token: ${{ secrets.GITHUB_TOKEN }}
       
